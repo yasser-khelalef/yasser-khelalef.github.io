@@ -200,7 +200,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./img/hero-bg.png);
+	background-image: url(./img/yig2.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -214,7 +214,7 @@ p {
 	height: 100%;
 	width: 100%;
 	background-color: black;
-	opacity: .7;
+	opacity: 0;
 	z-index: -1;
 }
 #hero .hero {
