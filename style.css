@@ -58,10 +58,25 @@ p {
 	transition: .3s ease;
 	transition-property: background-color, color;
 }
+.cta2 {
+	display: inline-block;
+	padding: 10px 10px;
+	color: white;
+	background-color: crimson;
+	border: 2px solid crimson;
+	font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	margin-top: 30px;
+	transition: .3s ease;
+	transition-property: background-color, color;
+}
 .cta:hover {
 	color: white;
 	background-color: crimson;
 }
+
+
 .brand h1 {
 	font-size: 3rem;
 	text-transform: uppercase;
@@ -375,6 +390,16 @@ p {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	color: white;
 }
+#projects .project-info2 {
+	padding: 30px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	color: white;
+}
+
 #projects .project-info h1 {
 	font-size: 4rem;
 	font-weight: 500;
